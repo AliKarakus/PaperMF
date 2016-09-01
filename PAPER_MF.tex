@@ -110,16 +110,8 @@
 	\end{abstract}
 
 	
-<<<<<<< .mine
-	
-
-||||||| .r20
-	
 	\textcolor{red}{\textcolor{red}{TODO}}: Yazılmış, ama artık kullanılmayan şeyleri bir temizlemek gerek. Cok fazla oyle yer var.
-	
-	
-=======
->>>>>>> .r22
+
 	\section{Introduction}
 	%%
 	Multiphase flows occur in many areas of practical importance such as flow-structure interaction, air-water interfacial dynamics, phase change problems, reacting flows etc. Numerical prediction of the deformable interfaces in these complex flows are challenging due to discontinuity in the material properties, varying topology and wide range of scales.
@@ -203,8 +195,7 @@
 	%%%
 	The discontinuous approximate spaces are $  \mathcal{V}_N  = \{ v\in L^2(\Omega)\lvert v \lvert_{D_{k}} \in \mathcal{P}_N(D_{k}), \; \forall D_{k} \in \Omega_h \} $
 	and its vector version, $ \mathcal{V}_N^d $. $\mathcal{P}_N(D_{k}) $ is the space of discontinuous piecewise polynomial functions of degree $N\geq 1$ on each elemental domain. Lagrange polynomials are constructed as the basis for this polynomial space using Warp$\&$Blend nodes \cite{warburton_explicit_2006} and orthonormal Proriol-Koornwinder-Dubiner (PKD) \cite{Proriol_1957,koornwinder_1975,dubiner_spectral_1991} polynomials. Let $ (\cdot , \cdot)_{D_{k}} $ represent the inner product computed over the volume of the element $ k $. Similarly, let $ (\cdot , \cdot)_{\partial D_{k}}$ denote the inner product taken along the element boundaries. 
-	%To control aliasing errors, volume and surface integrals are computed using cubature rules. For triangles, area integration is performed using symmetric cubature rules \cite{ronald_monomial_1999}  and edge integrals are computed using Gauss quadrature rules. Tetrahedral elements use  non-symmetric cubature rules for volume integration utilizing tensor product of Gauss-Lobatto-Legendre and Gauss-Radau-Jacobi distributions and symmetric cubature rules  for area integration. Volume and surface integrals  also represents the area and edge integration for 2D problems. 
-	
+		
 	
 	%%=============================================================================%
 	\subsection{Temporal Discretization}
